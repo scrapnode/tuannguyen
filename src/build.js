@@ -30,18 +30,14 @@ fs.writeFileSync(outputDir + "/index.html", html);
 
 let sync = true;
 buildPdf = async function (inputFile, outputFile) {
-  const browser = await Puppeteer.launch({
-    headless: true,
-    slowMo: 50,
-  });
+  const browser = await Puppeteer.launch();
   console.log("---1");
   const page = await browser.newPage();
-  console.log("---1.1");
+  console.log("---2");
 
   await page.goto(`file://${inputFile}`, {
     waitUntil: "networkidle0",
   });
-  console.log("---2");
 
   await page.pdf({
     path: outputFile,
@@ -54,10 +50,7 @@ buildPdf = async function (inputFile, outputFile) {
       left: "2.54cm",
     },
   });
-
-  console.log("---3");
   await browser.close();
-  console.log("---4");
   sync = false;
 };
 
