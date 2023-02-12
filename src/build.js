@@ -33,6 +33,8 @@ buildPdf = async function (inputFile, outputFile) {
   });
   console.log("---1")
   const page = await browser.newPage();
+  console.log("---1.1")
+
   await page.goto(`file://${inputFile}`, {
     waitUntil: 'networkidle0'
   });
