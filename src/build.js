@@ -31,10 +31,13 @@ buildPdf = async function (inputFile, outputFile) {
     headless: true,
     slowMo: 50
   });
+  console.log("---1")
   const page = await browser.newPage();
   await page.goto(`file://${inputFile}`, {
     waitUntil: 'networkidle0'
   });
+  console.log("---2")
+
   await page.pdf({
     path: outputFile,
     format: 'A4',
@@ -46,7 +49,10 @@ buildPdf = async function (inputFile, outputFile) {
       left: '2.54cm',
     },
   });
+  
+  console.log("---3")
   await browser.close();
+  console.log("---4")
 };
 
 // Build PDF
