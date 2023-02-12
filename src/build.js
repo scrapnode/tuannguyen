@@ -47,5 +47,5 @@ buildPdf = async function (inputFile, outputFile) {
 };
 
 // Build PDF
-buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);
+buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`).catch(console.error);
 
