@@ -1,0 +1,2 @@
+# The Curriculum Vitae of Tuan Nguyen
+> I have been a backend and devops developer for 8 years and have the versatility to play various roles within a team. My ultimate goals are to design large-scaled systems, lead team to success, and become an effective mentor. Love to refresh myself every single day, always hungry to keep learning!
