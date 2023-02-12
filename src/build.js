@@ -31,9 +31,7 @@ fs.writeFileSync(outputDir + "/index.html", html);
 let sync = true;
 buildPdf = async function (inputFile, outputFile) {
   const browser = await Puppeteer.launch();
-  console.log("---1");
   const page = await browser.newPage();
-  console.log("---2");
 
   await page.goto(`file://${inputFile}`, {
     waitUntil: "networkidle0",
