@@ -36,6 +36,10 @@ jobs:
         with:
           node-version: 16
       - run: npm install
+      - name: install puppeteer libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm1
       - run: npm run build
       - run: ls -lah dist
       - name: Setup Pages
