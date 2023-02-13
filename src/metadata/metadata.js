@@ -31,7 +31,7 @@ module.exports = {
     ["GCP", "+"],
   ],
   summary:
-    "I have been a backend and devops developer for 8 years and have the versatility to play various roles within a team. My ultimate goals are to design large-scaled systems, lead team to success, and become an effective mentor. Love to refresh myself every single day, always hungry to keep learning!",
+    "As a seasoned backend and devops developer with eight years of experience, I am highly adaptable and able to undertake a range of roles within a team. My primary aspirations are to conceive of and build large-scale systems, steer teams to success, and evolve into a dynamic mentor. I am driven by a passion for continuous learning and self-improvement, and maintain a voracious appetite for acquiring new knowledge on a daily basis.",
   positions: [
     {
       company: "2359Media",
