@@ -10,7 +10,7 @@ module.exports = {
     GitHub:
       '<a href="https://github.com/scrapnode"><i class="fab fa-github fact-icon"></i>scrapnode</a>',
     Email:
-      '<a href="mailto:tuan.nguyen930708@gmail.com">tuan.nguyen930708@gmail.com</a>',
+      '<a href="javascript:location.href = \'mailto:\' + [\'tuan.nguyen930708\',\'gmail.com\'].join(\'@\')">tuan.nguyen930708@gmail.com</a>',
   },
   skills: [
     ["Javascript", "++++"],
