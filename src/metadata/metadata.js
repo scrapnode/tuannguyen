@@ -82,7 +82,7 @@ Key Responsibilities:
 
 Achievements:
 
-* Desiging a crawler system that can make over **30 million requests** and receive **15 million documents** per day
+* Desiging a crawler system that can make over **30 million requests** and collect **15 million documents** per day
 * Maintaining two Elasticsearch clusters that stored more than **5 billion documents**, amounting to approximately **15TB of text data**
 * Reducing the release time from 4 hours to **30 minutes**
 * Achieving a minimum code coverage of **80%**.
@@ -102,7 +102,7 @@ Achievements:
   ],
   others: [
     {
-      contents: `Conduct research, design, and implement my personal project: <a href="https://github.com/scrapnode/scraphook" target="_blank">Open-source Webhook as service</a>`
+      contents: `Conduct research, design, and implement my personal projects: <a href="https://github.com/scrapnode" target="_blank">ScrapNode</a>`
     },
   ],
 };
