@@ -30,7 +30,7 @@ module.exports = {
       company: "2359Media",
       location: "HCM",
       title: "Software Engineer",
-      period: "Apr 2021 - Present",
+      period: "Apr 2019 - Apr 2021",
       skills: [
         "NodeJS",
         "ReactJS",
